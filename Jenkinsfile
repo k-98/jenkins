@@ -8,7 +8,12 @@ pipeline{
         }
         stage('Stage 2'){
             steps{
-                echo 'Hello World Again'
+                echo 'Hello World Again And '
+                }
+        }
+        stage('Stage 3'){
+            steps{
+                echo 'Hello World Again And Again '
                 }
         }
     }
